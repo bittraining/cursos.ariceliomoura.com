@@ -1,0 +1,2 @@
+$(function(){var width=$(window)[0].innerWidth;$('.icon-mobile-menu').click(function(){$('nav.menu-mobile').slideToggle();})
+$(window).resize(function(){if(width!=$(window)[0].innerWidth){width=$(window)[0].innerWidth;$('nav.menu-mobile').fadeOut();}})})
